@@ -33,5 +33,15 @@ class Stack{
             return top = NULL;
         }
 
-
+        //Pop operation : Remove the topmost element from the stack
+        void pop(){
+            if (isEmpty()){
+                cout << "Stack is empty"<<endl ;
+                return; //If stack is empty, print message and return
+            }
+            cout << "Popped value : " << top ->data <<endl;
+            top = top->next;
+        }
+        //peek/top operation : Retrieve the value of the topmost element without removing
+        V
 };
