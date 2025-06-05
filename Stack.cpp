@@ -59,3 +59,9 @@ class Stack{
             }//return the value of the top node
         }
 };
+
+int main()
+{
+    /* code */
+    return 0;
+}
