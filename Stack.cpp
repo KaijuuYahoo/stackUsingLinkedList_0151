@@ -22,7 +22,7 @@ class Stack{
         //Push Operation : Insert an element onto the top of the stack
         int push(int value){
             node *newNode = new node();//1.Allocate memory for the new node
-            newNode -> data = value;
+            newNode -> data = value;//2. Assign value
             newNode -> next = top;
             top = newNode;
             cout <<  "Push Value : "<< value<<endl;
