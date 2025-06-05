@@ -10,7 +10,6 @@ class node {
         next = NULL;
     }
 };
-
 class Stack{
     private:
         node *top; //Pointer to the top node of the stack
@@ -93,6 +92,7 @@ int main()
             cout << "Invalid Choice. Try Again"<<endl;            
             break;
         }
+        cout << endl;
     }
     return 0;
 }
