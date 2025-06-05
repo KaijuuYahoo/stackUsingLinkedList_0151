@@ -43,5 +43,19 @@ class Stack{
             top = top->next;
         }
         //peek/top operation : Retrieve the value of the topmost element without removing
-        V
+        void peek(){
+            if(isEmpty()){
+                cout << "List is empty"<<endl ;
+                return; //If stack is empty, print message and return  
+            }
+            else{
+                node *current = top;
+                while (current !=NULL)
+                {
+                    cout << current->data<<" "<<endl;
+                    current = current->next;
+                }
+                cout << endl;   
+            }//return the value of the top node
+        }
 };
