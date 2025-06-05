@@ -10,3 +10,10 @@ class node {
         next = NULL;
     }
 };
+
+class Stack{
+    private:
+        node *top;
+    public :
+        Sta
+};
