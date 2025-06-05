@@ -28,6 +28,10 @@ class Stack{
             cout <<  "Push Value : "<< value<<endl;
             return value;
         }
+        //isEmpty operation : Check if stack is empty
+        bool isEmpty(){
+            return top = NULL;
+        }
 
-        //Pop operation : Remove the topmost element from the stack
+
 };
