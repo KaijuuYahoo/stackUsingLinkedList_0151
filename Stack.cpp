@@ -34,13 +34,14 @@ class Stack{
 
         //Pop operation : Remove the topmost element from the stack
         void pop(){
-
+            node* temp = top;
             if (isEmpty()){
                 cout << "Stack is empty"<<endl ;
                 return; //If stack is empty, print message and return
             }
-            cout << "Popped value : " << top->data <<endl;
-            top = top->next;
+            cout << "Popped value : " << temp->data <<endl;
+            top = temp->next;
+            te
         }
         //peek/top operation : Retrieve the value of the topmost element without removing
         void peek(){
@@ -52,7 +53,7 @@ class Stack{
                 node *current = top;
                 while (current !=NULL)
                 {
-                    cout <<"Topmost value in Linked List"<< current->data<<" "<<endl;
+                    cout <<"Topmost value in Linked List : "<< current->data<<" "<<endl;
                     current = current->next;
                 }
                 cout << endl;   
